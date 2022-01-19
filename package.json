@@ -1,0 +1,31 @@
+{
+  "name": "caesar-cipher",
+  "version": "1.0.0",
+  "description": "Simple Node.js script to encrypt/decrypt using the caesar cipher",
+  "main": "main.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Jorge L Gomez",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-no-unsanitized": "^4.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-prototype-pollution-security-rules": "^1.0.6",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-scanjs-rules": "^0.2.1",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
